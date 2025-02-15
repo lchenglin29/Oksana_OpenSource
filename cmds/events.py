@@ -42,7 +42,7 @@ class event(Cog_Extension):
       try:
         await message.reply(calling_Oksana(f"[{get_time()}]{message.author.name}：{user_message}",message.channel.id,ctx=await self.bot.get_context(message), **({"img":imgs} if imgs else {})))
       except Exception as e:
-        embed = discord.Embed(title="錯誤！",description=f"```{e}```")
+        embed = discord.Embed(title="錯誤！",description=f"```{e}```",color=discord.Color.red())
         await message.reply(embed=embed)
         print(e)
 

@@ -58,8 +58,10 @@ async def on_command_error(ctx, error):
     embed = discord.Embed(title=':x:哎呀，有問題:(',description=message,color=discord.Color.red())
     embed.set_footer(text=textmsg(ctx.author.display_name))
     await ctx.reply(embed=embed)
-  else: 
-    await ctx.reply(f'我不知道你在供三小:({error}')
+  else:
+    embed = discord.Embed(title=':x:哎呀，有問題:(',description=f"```{error}```",color=0xff0000)
+    embed.set_footer(text=textmsg(ctx.author.display_name))
+    await ctx.reply(embed=embed)
 
 async def main():
     async with bot:
