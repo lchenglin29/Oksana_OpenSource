@@ -24,5 +24,12 @@
             "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
             "threshold": "BLOCK_NONE"
         }
-    ]
+    ],
+    "voice_settings": {
+        "VOICE" : "zh-CN-XiaoyiNeural",
+        "OUTPUT_FILE" : "test.mp3",
+        "RATE" : "-10%",
+        "VOLUME" : "+500%",
+        "PITCH" : "+10Hz"
+    }
 }
