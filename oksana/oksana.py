@@ -9,7 +9,7 @@ from oksana.tools import *
 
 load_dotenv()
 
-gemini_api_key = os.environ['dev_api_key']
+gemini_api_key = os.environ['gemini_api_key']
 
 chat_history = {}
 genai.configure(api_key=gemini_api_key)

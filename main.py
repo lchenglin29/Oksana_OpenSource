@@ -3,13 +3,15 @@ from discord.ext import commands
 from discord import app_commands
 import os,asyncio,datetime,aiohttp
 from dotenv import load_dotenv
+from oksana.tools import load_json
 
 load_dotenv()
 
 bot_token = os.environ['discord_token']
+prefix = load_json("settings/settings")["bot_prefix"]
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='d!', intents = intents)
+bot = commands.Bot(command_prefix=prefix, intents = intents)
 
 def textmsg(user):
   return f'回覆:{user}'
