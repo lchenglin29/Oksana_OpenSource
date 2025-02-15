@@ -81,6 +81,10 @@ Refer to Google’s [documentation](https://ai.google.dev/gemini-api/docs/text-g
 The **safety settings** for the AI model.  
 Refer to Google’s [documentation](https://ai.google.dev/gemini-api/docs/safety-settings?hl=en).
 
+### `voice_settings`  
+AI voice settings  
+Please refer to the [Edge-TTS documentation](https://github.com/rany2/edge-tts).
+
 ### `settings/system_prompt`  
 The system prompt for the AI model, where you can specify the role or other information for the AI.
 

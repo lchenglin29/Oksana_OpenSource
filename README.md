@@ -67,6 +67,9 @@ AI模型的**生成設定**。
 ### `safety_settings`
 AI模型的**安全設定**。  
 請參考Google提供之[文件](https://ai.google.dev/gemini-api/docs/safety-settings?hl=zh-tw)。
+### `voice_settings`
+AI語音的聲音設定。  
+請參考Edge-tts之[說明文件](https://github.com/rany2/edge-tts)。
 ## `settings/system_prompt`
 AI模型的系統提示詞，可以在其中指定AI扮演的角色或其他資訊。
 
