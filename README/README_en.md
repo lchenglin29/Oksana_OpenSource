@@ -10,7 +10,7 @@ I will list my articles and some great resources in the [Tutorial Resources](#tu
 
 # Introduction  
 This is the **AI Discord chatbot I started building since high school**  
-In order to create my learning portfolio, I’ve organized the code and configured it to make it easier for everyone to use.
+In order to create my learning portfolio, I’ve organized the code and make it easier for everyone to use.
 
 As for the **original repository (Oksana_dev)**, the code was a bit messy, so **I’ve made it private**. However, if there are any major updates, I will likely update this repository too, so no worries!
 
@@ -19,11 +19,11 @@ Since I’m putting in so much effort, please give me a star! :D
 # Overview  
 This is a Discord bot developed using **Discord.py** and **Gemini API**  
 * Features:
-    * Mention the bot or reply to the bot’s message in a general channel to have a conversation with the AI
+    * Mention the bot or reply to the bot’s message in a text channel to have a conversation with the AI
     * Can read **images** attached in messages
     * Supports voice functionality, allowing conversations in **voice channels**
-    * Can check the **weather**
-    * Can check **daily stock prices** and **company revenue info** (requires the stock symbol of the company you want to query)
+    * Can check the **weather**(in Taiwan)
+    * Can check **daily stock prices** and **company revenue info** (requires the stock code of the company you want to query)
     * Can **read web pages** when given a **link** in the message
     * You can write system prompts in `settings/system_prompt` to customize your AI
 
@@ -59,7 +59,7 @@ discord_token=your_discord_api_key
 ```
 Fill in the information after `=` as needed. For details on how to obtain these, refer to the [Tutorial Resources](#tutorial-resources).
 
-> `weather_api_key` is required for the weather query feature, using the **Central Weather Bureau’s weather data API**. If you don’t need this, you can **put any value** in, but requesting weather info will result in an **error**.
+> `weather_api_key` is required for the weather query feature, using the **Taiwan Central Weather Administration's weather data API**. If you don’t need this, you can **put any value** in, but requesting weather info will result in an **error**.
 
 ### `settings/settings.json`  
 This file stores Discord bot and AI model configurations, which you can modify.  
@@ -100,7 +100,3 @@ A more important command is `clear_chat`. Since the bot supports multi-turn conv
 * Basics of Discord bots and how to get a Discord bot token: [Python Discord Bot Basics Tutorial](https://hackmd.io/@smallshawn95/python_discord_bot_base)  
 * How to obtain a Gemini API key: [Get Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key?hl=en)  
 * How to obtain the Central Weather Bureau API key: [[Day 13 - Real-time Weather] Build a Real-time Weather App - Preparation](https://ithelp.ithome.com.tw/m/articles/10222662)
-
----
-
-I hope this translation is helpful! Let me know if you need any further adjustments or have additional translation requests!
