@@ -35,7 +35,7 @@ Linux用戶可以透過`snap`安裝。
 ```bash
 sudo snap install ffmpeg
 ```
-> Unbuntu/Debian也可以用apt，不過我是用snap裝。其他發行板我不熟，請自己搜尋 :D
+> Ubuntu/Debian也可以用apt，不過我是用snap裝。其他發行板我不熟，請自己搜尋 :D
 
 > **倘若不需要語音功能亦可不安裝**。
 
