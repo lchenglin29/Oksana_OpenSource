@@ -103,4 +103,4 @@ A more important command is `clear_chat`. Since the bot supports multi-turn conv
 # Tutorial Resources  
 * Basics of Discord bots and how to get a Discord bot token: [Python Discord Bot Basics Tutorial](https://hackmd.io/@smallshawn95/python_discord_bot_base)  
 * How to obtain a Gemini API key: [Get Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key?hl=en)  
-* How to obtain the Central Weather Bureau API key: [[Day 13 - Real-time Weather] Build a Real-time Weather App - Preparation](https://ithelp.ithome.com.tw/m/articles/10222662)
+* How to obtain the Taiwan Central Weather Administration's API key: [[Day 13 - Real-time Weather] Build a Real-time Weather App - Preparation](https://ithelp.ithome.com.tw/m/articles/10222662)
